@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% SIGMOD 2026 WORKSHOP PROPOSAL: SynData@SIGMOD 2026
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[sigconf,screen]{acmart}
+
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\settopmatter{printacmref=false, printccs=false, printfolios=true}
+
+\title{SynData@SIGMOD 2026 \\ Workshop on Synthetic Data Generation, Evaluation, and Applications for Data-Centric AI}
+\author{Workshop Organizers}
+\date{}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Focus of the Workshop}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The rapid adoption of data-centric AI has amplified the demand for large-scale, diverse, and high-quality datasets. However, real-world data is often scarce, sensitive, or biased, creating significant bottlenecks for training and evaluating robust AI systems. Advances in synthetic data generation—powered by Large Language Models (LLMs) and generative AI—are unlocking new possibilities to create realistic, domain-relevant, and privacy-preserving datasets.
+
+The \textbf{SynData@SIGMOD 2026} workshop aims to bring together researchers and practitioners from data management, AI systems, and machine learning to explore the next generation of synthetic data pipelines. The workshop will serve as a leading venue for presenting new research, exchanging ideas, and fostering collaborations at the intersection of databases and AI-driven data generation.
+
+Key themes include:
+\begin{itemize}
+    \item Architectures and systems for scalable synthetic data generation.
+    \item Synergy between data management and LLM-based data synthesis.
+    \item Evaluation and benchmarking of fidelity, realism, and downstream utility.
+    \item Responsible data generation, including privacy, fairness, and bias mitigation.
+    \item Applications of synthetic data generation in data-scarce domains such as enterprise analytics, healthcare, finance, and social systems.
+\end{itemize}
+
+These topics are of great relevance for both the SIGMOD and AI communities. While several AI venues (e.g., NeurIPS, ICML, AAAI) explore generative modeling, there is a notable gap in database-focused discussions around the storage, management, validation, and benchmarking of synthetic data. SynData@SIGMOD 2026 bridges this gap by connecting data management researchers with generative AI practitioners to define a coherent research agenda for synthetic data systems.
+
+The workshop’s theme for this edition is: \textit{“Building Trustworthy Synthetic Data Pipelines for Data-Centric AI.”}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Intended Audience and Size}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The workshop targets researchers, practitioners, and students working in:
+\begin{itemize}
+    \item Data management and database systems.
+    \item Machine learning and generative AI.
+    \item Responsible and privacy-preserving data analytics.
+    \item Data-centric AI, benchmarking, and data evaluation frameworks.
+\end{itemize}
+
+We anticipate 80–120 participants, with representation from both academia and industry, including leading research labs and AI system developers. The workshop is expected to attract attendees from organizations such as Adobe Research, IBM Research, Google DeepMind, Microsoft Research, and academic groups focused on data systems and machine learning.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Workshop Time and Place}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+    \item \textbf{Preferred Duration:} Full-day workshop to accommodate invited talks, paper presentations, and panel discussions.
+    \item \textbf{Scheduling Preference:} Preferably the day before the main conference to encourage cross-community attendance.
+    \item \textbf{Expected Room Size:} Medium-sized room (100–120 capacity).
+    \item \textbf{Tentative Timeline:}
+    \begin{itemize}
+        \item Submission Deadline: February 15, 2026
+        \item Notification: March 15, 2026
+        \item Camera-ready: April 1, 2026
+    \end{itemize}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Publicity and Sponsorship Plans}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Publicity:}
+\begin{itemize}
+    \item Distribution through major mailing lists such as DBWorld, ML-News, and DataMining.
+    \item Outreach to the LLM and AI communities via the NeurIPS, ICML, AAAI, and ICLR workshop channels.
+    \item Social media promotion on Twitter/X, LinkedIn, and via SIGMOD conference handles.
+    \item Outreach to previous workshop participants and research groups focused on data management for AI.
+\end{itemize}
+
+\textbf{Sponsorship:}
+\begin{itemize}
+    \item Approach data-centric AI companies, cloud data management providers, and generative AI startups.
+    \item Engage with industrial research labs (Adobe, IBM, Microsoft, Google, AWS) for speaker sponsorships or student travel support.
+    \item Coordinate with SIGMOD sponsorship co-chairs to identify potential partners.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Proposed Organization of the Workshop}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The workshop will be organized around three key elements:
+\begin{itemize}
+    \item \textbf{Keynote Talks:} By distinguished researchers from academia and industry (e.g., on LLM-based data synthesis, responsible synthetic data, and evaluation frameworks).
+        \begin{itemize}
+            \item Sunita Sarawagi, Professor, Indian Institute of Technology, Bombay, India.
+            \item Aditya Parameswaran, Associate Professor, UC Berkeley.
+        \end{itemize}
+    \item \textbf{Paper Presentations:} Accepted peer-reviewed papers (in short and long formats) that highlight novel research and practical systems.
+    \item \textbf{Panel Discussions:} To discuss “Responsible Synthetic Data in Open and Enterprise Research.”
+    \item \textbf{Poster and Demo Sessions:} For early-stage research and prototype systems.
+\end{itemize}
+
+
+{\bf Tentative Program:} This workshop is expected to be a full-day event and it contains a mix of Keynote talks, Invited talks, Research contributed talks, and a Panel discussion sessions. Below is a tentative schedule for this workshop that we anticipate as of now:
+% For the invited speakers, we will have 45 minutes for presentations and 15 minutes for questions and answers and discussions. For selected contributed papers, we will have 10-minute presentations and 5-minute discussions (minor adjustments might be made depending on the number of accepted papers), and 
+%All contributed presentations will be invited to present a poster of their work. Following is a tentative outline of the workshop program:
+
+\begin{itemize}
+    \item 09:00 - 09:15AM Welcome address
+    \item 09:15 - 10:00AM Keynote Talk 1
+    \item 10:00 - 10:15AM Break
+    \item 10:15 - 11:15AM Papers Session 1
+    \item 11:15 - 12:00PM Invited Talk 1
+    \item 12:00 - 01:00PM Lunch Break
+    \item 01:00 - 01:45PM Keynote Talk 2
+    \item 01:45 - 02:45PM Papers Session 2
+    \item 02:45 - 03:00PM Break
+    \item 03:00 - 03:45PM Invited Talk 2
+    \item 03:45 - 04:30PM Panel Discussion
+    \item 04:30 - 05:00PM Closing Remarks
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Workshop Organizers}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+    \item \textbf{Eugene Wu}, Associate Professor, Department of Computer Science, Columbia University
+    \item \textbf{Barna Saha}, The Harry E. Gruber Endowed Chair Professor of Computer Science and Information Technologies, University of California San Diego (UCSD)
+    \item \textbf{Eunyee Koh}, Principal Research Scientist, Adobe Research, San Jose.
+    \item \textbf{Soumyabrata Pal}, Research Scientist, Adobe Research, India.
+    \item \textbf{Subrata Mitra}, Senior Research Scientist, Adobe Research, India.
+    \item \textbf{Ramasuri Narayanam}, Senior Research Scientist, Adobe Research, India.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Organizational Structure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+    \item The steering committee and PC chairs will ensure continuity and quality across future editions.
+    \item Program Committee (25 members) will include diverse experts from academia and industry.
+    \item Selection criteria emphasize expertise in synthetic data systems, LLMs, and responsible AI, with at least 30\% representation from underrepresented groups.
+    \item Post-workshop, feedback will be collected to plan for SynData@SIGMOD 2027 or related follow-ups.
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{PRIOR ATTENDANCE AND SUBMISSION
+STATISTICS}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Refer 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Workshop Website}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The workshop website will be hosted at:
+\begin{itemize}
+    \item \url{https://research.adobe.com/syndata2026/} (tentative)
+\end{itemize}
+
+The website will include CFP details, submission links, schedule, invited speakers, and accepted papers.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Workshop Proceedings}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+    \item Proceedings will be published in the ACM Digital Library as part of the SIGMOD Workshop Proceedings.
+    \item Selected high-quality papers may be invited for extended versions in the VLDB Journal or ACM TIST (to be discussed).
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Handling of Conflicts of Interest and Reviewing}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+    \item The workshop will use a double-anonymous reviewing process.
+    \item Reviewers will adhere to the CoI guidelines outlined in the SIGMOD Call for Papers.
+    \item Submissions by PC chairs will not be permitted.
+    \item Reviewers may volunteer to mentor papers post-acceptance.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Diversity Commitment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+SynData@SIGMOD 2026 is deeply committed to diversity, equity, and inclusion.  
+\begin{itemize}
+    \item At least 30\% of the PC will comprise members from underrepresented groups.
+    \item The invited speaker list will ensure gender, geographic, and career-stage diversity.
+    \item We will coordinate with the SIGMOD DEI chairs to align with community standards and best practices.
+\end{itemize}
+
+\end{document}
